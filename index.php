@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +12,7 @@
             <th>Nome</th>
         </tr>
         <?php
-        include("config.php");
+        include("ler.php");
         $usuarios = lerUsuarios();
         foreach ($usuarios as $usuario) {
             echo "<tr>";
